@@ -1,0 +1,206 @@
+{
+  "phases": [
+    {
+      "title": "Backlog",
+      "color": "green",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Complete project documentation",
+          "description": "Write the documentation for the new project",
+          "dueDate": "2024-09-01T12:00:00Z",
+          "priority": "High",
+          "creator": "John Doe",
+          "email": "johndoe@taskify.com"
+        },
+        {
+          "id": 3,
+          "title": "Design homepage layout",
+          "description": "Create mockups for the new homepage design",
+          "dueDate": "2024-09-15T10:00:00Z",
+          "priority": "Low",
+          "creator": "Alice Johnson",
+          "email": "alicejohnson@taskify.com"
+        },
+        {
+          "id": 7,
+          "title": "Update project roadmap",
+          "description": "Adjust the project roadmap based on recent changes",
+          "dueDate": "2024-09-10T16:00:00Z",
+          "priority": "Medium",
+          "creator": "Eve Martin",
+          "email": "evemartin@taskify.com"
+        },
+        {
+          "id": 11,
+          "title": "Design login page",
+          "description": "Create design for the new login page",
+          "dueDate": "2024-09-12T13:00:00Z",
+          "priority": "Medium",
+          "creator": "Ivy Rodriguez",
+          "email": "ivyrodriguez@taskify.com"
+        },
+        {
+          "id": 15,
+          "title": "Add analytics tracking",
+          "description": "Implement analytics tracking for user behavior",
+          "dueDate": "2024-09-08T12:00:00Z",
+          "priority": "High",
+          "creator": "Mia Thompson",
+          "email": "miathompson@taskify.com"
+        },
+        {
+          "id": 19,
+          "title": "Review system performance",
+          "description": "Analyze and review the system performance metrics",
+          "dueDate": "2024-09-07T14:00:00Z",
+          "priority": "Medium",
+          "creator": "Quinn Baker",
+          "email": "quinnbaker@taskify.com"
+        }
+      ]
+    },
+    {
+      "title": "Doing",
+      "color": "orange",
+      "tasks": [
+        {
+          "id": 2,
+          "title": "Fix login bug",
+          "description": "Resolve the issue with user login on the staging server",
+          "dueDate": "2024-08-25T15:00:00Z",
+          "priority": "Medium",
+          "creator": "Jane Smith",
+          "email": "janesmith@taskify.com"
+        },
+        {
+          "id": 6,
+          "title": "Review pull requests",
+          "description": "Check and merge the recent pull requests",
+          "dueDate": "2024-08-28T11:00:00Z",
+          "priority": "Low",
+          "creator": "Dana Lee",
+          "email": "danalee@taskify.com"
+        },
+        {
+          "id": 8,
+          "title": "Test new feature",
+          "description": "Perform testing on the newly added feature",
+          "dueDate": "2024-08-29T15:00:00Z",
+          "priority": "High",
+          "creator": "Frank White",
+          "email": "frankwhite@taskify.com"
+        },
+        {
+          "id": 16,
+          "title": "Fix broken links",
+          "description": "Identify and fix broken links on the website",
+          "dueDate": "2024-08-24T09:00:00Z",
+          "priority": "Medium",
+          "creator": "Nathan Young",
+          "email": "nathanyoung@taskify.com"
+        }
+      ]
+    },
+    {
+      "title": "On hold",
+      "color": "purple",
+      "tasks": [
+        {
+          "id": 4,
+          "title": "Implement user authentication",
+          "description": "Develop the user login and registration system",
+          "dueDate": "2024-08-30T09:00:00Z",
+          "priority": "High",
+          "creator": "Bob Brown",
+          "email": "bobbrown@taskify.com"
+        },
+        {
+          "id": 9,
+          "title": "Create user guide",
+          "description": "Write a guide for end-users on how to use the new system",
+          "dueDate": "2023-09-20T12:00:00Z",
+          "priority": "Low",
+          "creator": "Grace Clark",
+          "email": "graceclark@taskify.com"
+        },
+        {
+          "id": 13,
+          "title": "Conduct user interviews",
+          "description": "Interview users to gather feedback on the application",
+          "dueDate": "2022-08-18T14:00:00Z",
+          "priority": "Low",
+          "creator": "Karen Adams",
+          "email": "karenadams@taskify.com"
+        },
+        {
+          "id": 17,
+          "title": "Update API documentation",
+          "description": "Revise API documentation for clarity and completeness",
+          "dueDate": "2024-09-25T11:00:00Z",
+          "priority": "Low",
+          "creator": "Olivia Turner",
+          "email": "oliviaturner@taskify.com"
+        }
+      ]
+    },
+
+    {
+      "title": "Done",
+      "color": "green",
+      "tasks": [
+        {
+          "id": 5,
+          "title": "Set up database schema",
+          "description": "Design and implement the initial database schema",
+          "dueDate": "2024-09-05T14:00:00Z",
+          "priority": "Medium",
+          "creator": "Charlie Davis",
+          "email": "charliedavis@taskify.com"
+        },
+        {
+          "id": 10,
+          "title": "Prepare deployment scripts",
+          "description": "Create scripts for deploying the application to production",
+          "dueDate": "2024-08-31T10:00:00Z",
+          "priority": "High",
+          "creator": "Henry Walker",
+          "email": "henrywalker@taskify.com"
+        },
+        {
+          "id": 14,
+          "title": "Create deployment checklist",
+          "description": "Draft a checklist for deployment readiness",
+          "dueDate": "2024-08-26T16:00:00Z",
+          "priority": "Medium",
+          "creator": "Leo Evans",
+          "email": "leoevans@taskify.com"
+        },
+        {
+          "id": 18,
+          "title": "Design user dashboard",
+          "description": "Create a design for the user dashboard interface",
+          "dueDate": "2024-08-22T10:00:00Z",
+          "priority": "High",
+          "creator": "Paul Mitchell",
+          "email": "paulmitchell@taskify.com"
+        }
+      ]
+    },
+    {
+      "title": "Archive",
+      "color": "red",
+      "tasks": [
+        {
+          "id": 20,
+          "title": "Plan marketing strategy",
+          "description": "Develop a marketing strategy for the upcoming launch",
+          "dueDate": "2024-08-04T15:00:00Z",
+          "priority": "Low",
+          "creator": "Riley Cooper",
+          "email": "rileycooper@taskify.com"
+        }
+      ]
+    }
+  ]
+}

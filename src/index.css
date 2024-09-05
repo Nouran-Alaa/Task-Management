@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply rounded-lg border border-stone-200 px-4 py-2 text-sm outline-none transition-all duration-300 placeholder:text-stone-400 focus:ring-1 focus:ring-blue-700 hover:focus:ring-blue-400 md:px-6 md:py-3;
+  }
+  body {
+    font-family: "Inter";
+    overflow-y: hidden;
+    height: 100vh; /* Ensure body takes full viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0;
+  }
+  body::-webkit-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #007bff #e0f0ff;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px; /* Width of the scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #e0f0ff; /* Light blue background for the track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #3597ff9a; /* Blue color for the scrollbar thumb */
+    border-radius: 6px; /* Optional: rounded corners for the scrollbar thumb */
+  }
+  .active {
+    border-bottom: black;
+  }
+}
